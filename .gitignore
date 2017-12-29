@@ -1,3 +1,8 @@
+.idea
+service_a/lib
+service_b/lib
+venv-blog-appengine-cross-service-calls
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

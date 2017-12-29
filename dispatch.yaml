@@ -1,0 +1,8 @@
+
+dispatch:
+- url: "*/api/service_a/v1/*"
+  service: alpha
+- url: "*/api/service_b/v1/*"
+  service: beta
+- url: "*/*"
+  service: default

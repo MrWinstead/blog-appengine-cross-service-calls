@@ -1,0 +1,11 @@
+api_version: 1
+runtime: python27
+
+handlers:
+- url: /.*
+  secure: always
+  login: required
+  script: service_a.app
+
+service: alpha
+threadsafe: true
